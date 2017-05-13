@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "英傑の力",
+    "description" : "タップダメージの%d倍のダメージを与える",
+    "unlockLevel": 100,
+    "unlockCost": 4.91E+3,
+    "costMp": 27,
+    "level": 0,
+    "isUsed": false,
+    "type": "damage",
+    "effectDuration": 3,
+    "recoverDuration": 1,
+    "typeSpecific": {
+      "magnification": 100
+    },
+    "equipmentProps": {
+      "effectDuration": 0,
+      "costMp": 0,
+      "value": 1
+    }
+  },
+  {
+    "id": 2,
+    "name": "英傑の鼓舞",
+    "description": "1分間タップダメージが%d倍になる",
+    "unlockLevel": 200,
+    "unlockCost": 2.01E+6,
+    "costMp": 30,
+    "level": 0,
+    "isUsed": false,
+    "type": "parameter_up",
+    "effectDuration": 30,
+    "recoverDuration": 10,
+    "typeSpecific": {
+      "magnification": 10
+    },
+    "equipmentProps": {
+      "effectDuration": 0,
+      "costMp": 0,
+      "value": 1
+    }
+  },
+  {
+    "id": 3,
+    "name": "英傑の光",
+    "description": "1分間タップごとに敵を倒したときの%d倍の光を取得する",
+    "unlockLevel": 300,
+    "unlockCost": 8.25E+8,
+    "costMp": 40,
+    "level": 0,
+    "isUsed": false,
+    "type": "lights_per_slash",
+    "effectDuration": 30,
+    "recoverDuration": 10,
+    "typeSpecific": {
+      "magnification": 0.05
+    },
+    "equipmentProps": {
+      "effectDuration": 0,
+      "costMp": 0,
+      "value": 1
+    }
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "name": "主人公",
+  "level": 1,
+  "stageNumber": 1,
+  "lights": 0,
+  "crystals": 0,
+  "jewels": 100000,
+  "mpMax": 1000,
+  "mp": 1000,
+  "lightsPerSlashMagnification": 0,
+  "criticalRate": 0.01,
+  "criticalDamageMagnification": 10,
+  "damageMagnification": 1,
+  "killerTechMagnification": 1,
+  "zakoLightMagnification": 1,
+  "bossLightMagnification": 1,
+  "tenseiCount": 0,
+  "equipmentProps": {
+    "jewelRate": 1,
+    "allLights": 1,
+    "zakoLights": 1,
+    "bossLights": 1,
+    "damage": 1,
+    "allDamage": 1,
+    "criticalRate": 1,
+    "equipmentBonus": 1
+  }
+}

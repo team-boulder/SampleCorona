@@ -1,0 +1,1682 @@
+[
+  {
+    "id": 1,
+    "level": 0,
+    "name": "趙雲",
+    "unlockCost": 30,
+    "dpsMagnification": 1,
+    "range": "close",
+    "skills": [
+      {
+        "isLocked": true,
+        "unlockLevel": 20,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "criticalDamageMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 40,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "criticalRate",
+          "operation": "add",
+          "value": 0.001
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 60,
+        "effect": {
+          "target": "bonus_creator",
+          "targetKey": "light_amount",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 100,
+        "effect": {
+          "target": "bonus_creator",
+          "targetKey": "appearRate",
+          "operation": "add",
+          "value": 0.001
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 200,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "mpMax",
+          "operation": "add",
+          "value": 3
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 500,
+        "target": "fighter",
+        "effect": {
+          "targetKey": "damageMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 999,
+        "effect": {
+          "target": "self",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 100
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "level": 0,
+    "name": "諸葛亮",
+    "unlockCost": 180,
+    "dpsMagnification": 1,
+    "range": "close",
+    "skills": [
+      {
+        "isLocked": true,
+        "unlockLevel": 20,
+        "effect": {
+          "target": "bonus_creator",
+          "targetKey": "lightMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 40,
+        "effect": {
+          "target": "bonus_creator",
+          "targetKey": "appearRate",
+          "operation": "add",
+          "value": 0.001
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 60,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "criticalDamageMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 100,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "criticalRate",
+          "operation": "add",
+          "value": 0.001
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 200,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "zakoLightMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 500,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "mpMax",
+          "operation": "add",
+          "value": 3
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 999,
+        "effect": {
+          "target": "self",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 100
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "level": 0,
+    "name": "関羽",
+    "unlockCost": 800,
+    "dpsMagnification": 1,
+    "range": "close",
+    "skills": [
+      {
+        "isLocked": true,
+        "unlockLevel": 20,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "damageMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 40,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "damageMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 60,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "damageMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 100,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "damageMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 200,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "damageMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 500,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "damageMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 999,
+        "effect": {
+          "target": "self",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 100
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "level": 0,
+    "name": "劉備",
+    "unlockCost": 4.0E+03,
+    "dpsMagnification": 1,
+    "range": "close",
+    "skills": [
+      {
+        "isLocked": true,
+        "unlockLevel": 20,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "bossLightMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 40,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "bossLightMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 60,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "bossLightMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 100,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "bossLightMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 200,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "bossLightMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 500,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "bossLightMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 999,
+        "effect": {
+          "target": "self",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 100
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "level": 0,
+    "name": "董卓",
+    "unlockCost": 2.80E+04,
+    "dpsMagnification": 1,
+    "range": "close",
+    "skills": [
+      {
+        "isLocked": true,
+        "unlockLevel": 20,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "mpMax",
+          "operation": "add",
+          "value": 3
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 40,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "mpMax",
+          "operation": "add",
+          "value": 3
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 60,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "mpMax",
+          "operation": "add",
+          "value": 3
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 100,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "mpMax",
+          "operation": "add",
+          "value": 3
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 200,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "mpMax",
+          "operation": "add",
+          "value": 3
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 500,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "mpMax",
+          "operation": "add",
+          "value": 3
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 999,
+        "effect": {
+          "target": "self",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 100
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "level": 0,
+    "name": "曹操",
+    "unlockCost": 2.24E+05,
+    "dpsMagnification": 1,
+    "range": "close",
+    "skills": [
+      {
+        "isLocked": true,
+        "unlockLevel": 20,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "zakoLightMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 40,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "zakoLightMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 60,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "zakoLightMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 100,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "zakoLightMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 200,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "zakoLightMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 500,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "zakoLightMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 999,
+        "effect": {
+          "target": "self",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 100
+        }
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "level": 0,
+    "name": "呂布",
+    "unlockCost": 2.69E+06,
+    "dpsMagnification": 1,
+    "range": "close",
+    "skills": [
+      {
+        "isLocked": true,
+        "unlockLevel": 20,
+        "effect": {
+          "target": "bonus_creator",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 40,
+        "effect": {
+          "target": "bonus_creator",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 60,
+        "effect": {
+          "target": "bonus_creator",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 100,
+        "effect": {
+          "target": "bonus_creator",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 200,
+        "effect": {
+          "target": "bonus_creator",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 500,
+        "effect": {
+          "target": "bonus_creator",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 999,
+        "effect": {
+          "target": "self",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 100
+        }
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "level": 0,
+    "name": "孫権",
+    "unlockCost": 2.15E+07,
+    "dpsMagnification": 1,
+    "range": "close",
+    "skills": [
+      {
+        "isLocked": true,
+        "unlockLevel": 20,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 40,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 60,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 100,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 200,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 500,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 999,
+        "effect": {
+          "target": "self",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 100
+        }
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "level": 0,
+    "name": "姜維",
+    "unlockCost": 2.37E+08,
+    "dpsMagnification": 1,
+    "range": "close",
+    "skills": [
+      {
+        "isLocked": true,
+        "unlockLevel": 20,
+        "effect": {
+          "target": "busho_close",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 40,
+        "effect": {
+          "target": "busho_close",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 60,
+        "effect": {
+          "target": "busho_close",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 100,
+        "effect": {
+          "target": "busho_close",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 200,
+        "effect": {
+          "target": "busho_close",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 500,
+        "effect": {
+          "target": "busho_close",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 999,
+        "effect": {
+          "target": "self",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 100
+        }
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "level": 0,
+    "name": "馬謖",
+    "unlockCost": 1.89E+09,
+    "dpsMagnification": 1,
+    "range": "close",
+    "skills": [
+      {
+        "isLocked": true,
+        "unlockLevel": 20,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 40,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 60,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 100,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 200,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 500,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 999,
+        "effect": {
+          "target": "self",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 100
+        }
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "level": 0,
+    "name": "黄忠",
+    "unlockCost": 9.46E+09,
+    "dpsMagnification": 1,
+    "range": "close",
+    "skills": [
+      {
+        "isLocked": true,
+        "unlockLevel": 20,
+        "effect": {
+          "target": "busho_close",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 40,
+        "effect": {
+          "target": "busho_close",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 60,
+        "effect": {
+          "target": "busho_close",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 100,
+        "effect": {
+          "target": "busho_close",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 200,
+        "effect": {
+          "target": "busho_close",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 500,
+        "effect": {
+          "target": "busho_close",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 999,
+        "effect": {
+          "target": "self",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 100
+        }
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "level": 0,
+    "name": "張飛",
+    "unlockCost": 8.52E+10,
+    "dpsMagnification": 1,
+    "range": "close",
+    "skills": [
+      {
+        "isLocked": true,
+        "unlockLevel": 20,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 40,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 60,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 100,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 200,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 500,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 999,
+        "effect": {
+          "target": "self",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 100
+        }
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "level": 0,
+    "name": "周瑜",
+    "unlockCost": 8.52E+11,
+    "dpsMagnification": 1,
+    "range": "close",
+    "skills": [
+      {
+        "isLocked": true,
+        "unlockLevel": 20,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 40,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 60,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 100,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 200,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 500,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 999,
+        "effect": {
+          "target": "self",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 100
+        }
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "level": 0,
+    "name": "甘寧",
+    "unlockCost": 1.53E+13,
+    "dpsMagnification": 1,
+    "range": "close",
+    "skills": [
+      {
+        "isLocked": true,
+        "unlockLevel": 20,
+        "effect": {
+          "target": "busho_all",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 40,
+        "effect": {
+          "target": "busho_all",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 60,
+        "effect": {
+          "target": "busho_all",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 100,
+        "effect": {
+          "target": "busho_all",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 200,
+        "effect": {
+          "target": "busho_all",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 500,
+        "effect": {
+          "target": "busho_all",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 999,
+        "effect": {
+          "target": "self",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 100
+        }
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "level": 0,
+    "name": "周姫",
+    "unlockCost": 1.84E+14,
+    "dpsMagnification": 1,
+    "range": "close",
+    "skills": [
+      {
+        "isLocked": true,
+        "unlockLevel": 20,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "damageMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 40,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "damageMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 60,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "damageMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 100,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "damageMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 200,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "damageMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 500,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "damageMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 999,
+        "effect": {
+          "target": "self",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 100
+        }
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "level": 0,
+    "name": "貂蝉",
+    "unlockCost": 1.68E+15,
+    "dpsMagnification": 1,
+    "range": "close",
+    "skills": [
+      {
+        "isLocked": true,
+        "unlockLevel": 20,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "criticalDamageMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 40,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "criticalRate",
+          "operation": "add",
+          "value": 0.001
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 60,
+        "effect": {
+          "target": "bonus_creator",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 100,
+        "effect": {
+          "target": "bonus_creator",
+          "targetKey": "appearRate",
+          "operation": "add",
+          "value": 0.001
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 200,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "mpMax",
+          "operation": "add",
+          "value": 3
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 500,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "damageMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 999,
+        "effect": {
+          "target": "self",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 100
+        }
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "level": 0,
+    "name": "関銀屏",
+    "unlockCost": 2.31E+16,
+    "dpsMagnification": 1,
+    "range": "close",
+    "skills": [
+      {
+        "isLocked": true,
+        "unlockLevel": 20,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 40,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 60,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 100,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 200,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 500,
+        "effect": {
+          "target": "busho_remote",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 999,
+        "effect": {
+          "target": "self",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 100
+        }
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "level": 0,
+    "name": "孫尚香",
+    "unlockCost": 7.92E+17,
+    "dpsMagnification": 1,
+    "range": "close",
+    "skills": [
+      {
+        "isLocked": true,
+        "unlockLevel": 20,
+        "effect": {
+          "target": "busho_close",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 40,
+        "effect": {
+          "target": "busho_close",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 60,
+        "effect": {
+          "target": "busho_close",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 100,
+        "effect": {
+          "target": "busho_close",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 200,
+        "effect": {
+          "target": "busho_close",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 500,
+        "effect": {
+          "target": "busho_close",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 999,
+        "effect": {
+          "target": "self",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 100
+        }
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "level": 0,
+    "name": "王異",
+    "unlockCost": 2.56E+19,
+    "dpsMagnification": 1,
+    "range": "close",
+    "skills": [
+      {
+        "isLocked": true,
+        "unlockLevel": 20,
+        "effect": {
+          "target": "busho_close",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 40,
+        "effect": {
+          "target": "busho_close",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 60,
+        "effect": {
+          "target": "busho_close",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 100,
+        "target": "busho_close",
+        "effect": {
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 200,
+        "effect": {
+          "target": "busho_close",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 500,
+        "effect": {
+          "target": "busho_close",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 999,
+        "effect": {
+          "target": "self",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 100
+        }
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "level": 0,
+    "name": "大喬",
+    "unlockCost": 1.31E+21,
+    "dpsMagnification": 1,
+    "range": "close",
+    "skills": [
+      {
+        "isLocked": true,
+        "unlockLevel": 20,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "zakoLightMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 40,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "zakoLightMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 60,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "zakoLightMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 100,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "zakoLightMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 200,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "zakoLightMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 500,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "zakoLightMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 999,
+        "effect": {
+          "target": "self",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 100
+        }
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "level": 0,
+    "name": "小喬",
+    "unlockCost": 1.97E+22,
+    "dpsMagnification": 1,
+    "range": "close",
+    "skills": [
+      {
+        "isLocked": true,
+        "unlockLevel": 20,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "criticalDamageMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 40,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "criticalRate",
+          "operation": "add",
+          "value": 0.001
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 60,
+        "effect": {
+          "target": "bonus_creator",
+          "targetKey": "light_amount",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 100,
+        "effect": {
+          "target": "bonus_creator",
+          "targetKey": "appearRate",
+          "operation": "add",
+          "value": 0.001
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 200,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "mpMax",
+          "operation": "add",
+          "value": 3
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 500,
+        "effect": {
+          "target": "fighter",
+          "targetKey": "damageMagnification",
+          "operation": "mul",
+          "value": 1.1
+        }
+      },
+      {
+        "isLocked": true,
+        "unlockLevel": 999,
+        "effect": {
+          "target": "self",
+          "targetKey": "dpsMagnification",
+          "operation": "mul",
+          "value": 100
+        }
+      }
+    ]
+  }
+]

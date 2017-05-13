@@ -1,0 +1,278 @@
+[
+  {
+    "name": "宝石箱",
+    "initialDamageBonus": 0.3,
+    "levelUpBonus": 0.15,
+    "level": 0,
+    "levelMax": 999,
+    "effect": {
+      "target": "fighter",
+      "targetKey": "jewelRate",
+      "operation": "add",
+      "value": 0.05
+    }
+  },
+  {
+    "name": "友の指輪",
+    "description": "%sの時間%d秒延長",
+    "initialDamageBonus": 1.5,
+    "levelUpBonus": 0.5,
+    "level": 0,
+    "levelMax": 30,
+    "effect": {
+      "target": "killerTech",
+      "id": 2,
+      "targetKey": "effectDuration",
+      "operation": "add",
+      "value": 2
+    }
+  },
+  {
+    "name": "光の指輪",
+    "description": "%sの時間%d秒延長",
+    "initialDamageBonus": 1.5,
+    "levelUpBonus": 0.5,
+    "level": 0,
+    "levelMax": 30,
+    "effect": {
+      "target": "killerTech",
+      "id": 3,
+      "targetKey": "effectDuration",
+      "operation": "add",
+      "value": 2
+    }
+  },
+  {
+    "name": "力の水瓶",
+    "description": "%sの消費MPを%d",
+    "initialDamageBonus": 0.9,
+    "levelUpBonus": 0.5,
+    "level": 0,
+    "levelMax": 20,
+    "effect": {
+      "target": "killerTech",
+      "id": 1,
+      "targetKey": "costMp",
+      "operation": "add",
+      "value": -1
+    }
+  },
+  {
+    "name": "友の水瓶",
+    "description": "%sの消費MPを%d",
+    "initialDamageBonus": 0.3,
+    "levelUpBonus": 0.5,
+    "level": 0,
+    "levelMax": 30,
+    "effect": {
+      "target": "killerTech",
+      "id": 2,
+      "targetKey": "costMp",
+      "operation": "add",
+      "value": -1
+    }
+  },
+  {
+    "name": "光の水瓶",
+    "description": "%sの消費MPを%d",
+    "initialDamageBonus": 0.4,
+    "levelUpBonus": 0.5,
+    "level": 0,
+    "levelMax": 40,
+    "effect": {
+      "target": "killerTech",
+      "id": 3,
+      "targetKey": "costMp",
+      "operation": "add",
+      "value": -1
+    }
+  },
+  {
+    "name": "力の腕輪",
+    "description": "%sの効果を%d倍",
+    "initialDamageBonus": 0.4,
+    "levelUpBonus": 0.5,
+    "level": 0,
+    "levelMax": 999,
+    "effect": {
+      "target": "killerTech",
+      "id": 1,
+      "targetKey": "value",
+      "operation": "add",
+      "value": 0.2
+    }
+  },
+  {
+    "name": "友の腕輪",
+    "description": "%sの効果を%d倍",
+    "initialDamageBonus": 0.4,
+    "levelUpBonus": 0.5,
+    "level": 0,
+    "levelMax": 999,
+    "effect": {
+      "target": "killerTech",
+      "id": 2,
+      "targetKey": "value",
+      "operation": "add",
+      "value": 0.2
+    }
+  },
+  {
+    "name": "光の腕輪",
+    "description": "%sの効果を%d倍",
+    "initialDamageBonus": 0.4,
+    "levelUpBonus": 0.5,
+    "level": 0,
+    "levelMax": 999,
+    "effect": {
+      "target": "killerTech",
+      "id": 3,
+      "targetKey": "value",
+      "operation": "add",
+      "value": 0.2
+    }
+  },
+  {
+    "name": "古の宝物",
+    "description": "%sから獲得する光を%d倍",
+    "initialDamageBonus": 0.3,
+    "levelUpBonus": 0.5,
+    "level": 0,
+    "levelMax": 999,
+    "effect": {
+      "target": "fighter",
+      "targetKey": "allLights",
+      "operation": "add",
+      "value": 0.05
+    }
+  },
+  {
+    "name": "古の鎧",
+    "description": "%sから獲得する光を%d倍",
+    "initialDamageBonus": 0.5,
+    "levelUpBonus": 0.5,
+    "level": 0,
+    "levelMax": 999,
+    "effect": {
+      "target": "fighter",
+      "targetKey": "zakoLights",
+      "operation": "add",
+      "value": 0.1
+    }
+  },
+  {
+    "name": "古の王冠",
+    "description": "%sから獲得する光を%d倍",
+    "initialDamageBonus": 0.5,
+    "levelUpBonus": 0.5,
+    "level": 0,
+    "levelMax": 999,
+    "effect": {
+      "target": "fighter",
+      "targetKey": "bossLights",
+      "operation": "add",
+      "value": 0.2
+    }
+  },
+  {
+    "name": "英傑の長剣",
+    "description": "%sのダメージを%d倍",
+    "initialDamageBonus": 0.3,
+    "levelUpBonus": 0.5,
+    "level": 0,
+    "levelMax": 999,
+    "effect": {
+      "target": "fighter",
+      "targetKey": "damage",
+      "operation": "add",
+      "value": 0.01
+    }
+  },
+  {
+    "name": "英傑のペンダント",
+    "description": "%sのダメージを%d倍",
+    "initialDamageBonus": 0.3,
+    "levelUpBonus": 0.5,
+    "level": 0,
+    "levelMax": 999,
+    "effect": {
+      "target": "allCharacter",
+      "targetKey": "allDamage",
+      "operation": "add",
+      "value": 0.02
+    }
+  },
+  {
+    "name": "英傑結晶",
+    "description": "%sのダメージを%d倍",
+    "initialDamageBonus": 0.5,
+    "levelUpBonus": 0.5,
+    "level": 0,
+    "levelMax": 999,
+    "effect": {
+      "target": "busho",
+      "range": "all",
+      "targetKey": "dps",
+      "operation": "add",
+      "value": 0.05
+    }
+  },
+  {
+    "name": "英傑の鎧",
+    "description": "クリティカル確率を%d倍",
+    "initialDamageBonus": 3,
+    "levelUpBonus": 0.5,
+    "level": 0,
+    "levelMax": 20,
+    "effect": {
+      "target": "fighter",
+      "targetKey": "criticalRate",
+      "operation": "add",
+      "value": 0.005
+    }
+  },
+  {
+    "name": "輝く長剣",
+    "description": "近接系武将のダメージ%d倍",
+    "initialDamageBonus": 0.6,
+    "levelUpBonus": 0.5,
+    "level": 0,
+    "levelMax": 999,
+    "effect": {
+      "target": "busho",
+      "range": "close",
+      "targetKey": "dps",
+      "operation": "add",
+      "value": 0.15
+    }
+  },
+  {
+    "name": "輝く弓",
+    "description": "遠距離系武将のダメージ%d倍",
+    "initialDamageBonus": 0.5,
+    "levelUpBonus": 0.5,
+    "level": 0,
+    "levelMax": 999,
+    "effect": {
+      "target": "busho",
+      "range": "remote",
+      "targetKey": "dps",
+      "operation": "add",
+      "value": 0.15
+    }
+  },
+  {
+    "name": "英傑の宝物",
+    "description": "装備ダメージボーナス%d倍",
+    "initialDamageBonus": 0.3,
+    "levelUpBonus": 0.5,
+    "level": 0,
+    "levelMax": 999,
+    "effect": {
+      "target": "equipment",
+      "targetKey": "initialDamageBonus",
+      "operation": "add",
+      "value": 0.05
+    }
+  }
+]
